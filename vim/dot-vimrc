@@ -32,3 +32,5 @@ au BufRead,BufNewFIle *.xml    set ts=2 expandtab shiftwidth=2
 au BufRead,BufNewFIle *.c      set ts=4 expandtab shiftwidth=4
 au BufRead,BufNewFIle *.hs     set ts=2 expandtab shiftwidth=2
 "au BufRead,BufNewFIle *.h      set ts=4 expandtab shiftwidth=4
+
+call pathogen#infect()
