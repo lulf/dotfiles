@@ -1,0 +1,34 @@
+set t_Co=256
+let g:zenburn_high_Contrast=1
+let g:zenburn_force_dark_Background = 1
+colors zenburn
+
+set shiftwidth=4
+set cinoptions=:0l1g0t0(0u0
+set nocompatible
+syntax on
+set ignorecase
+set ts=4
+set textwidth=80
+set wrapmargin=80
+set ai
+set statusline=~
+set backspace=2
+set writebackup
+set incsearch
+set errorformat=%f:%l:%m,\"%f\"\\,\ line\ %l\:\ %m
+set ruler
+set termencoding=utf-8
+set fileencodings=utf-8
+set filetype=on
+set expandtab
+
+au BufNewFile,BufRead mutt*    set tw=72 ai nocindent fileencoding=utf-8
+au BufRead,BufNewFIle *.vhdl    set ts=2 expandtab
+au BufRead,BufNewFIle *.h      set ts=4 expandtab shiftwidth=4
+au BufRead,BufNewFIle *.cpp    set ts=4 expandtab shiftwidth=4
+au BufRead,BufNewFIle *.java   set ts=4 expandtab shiftwidth=4
+au BufRead,BufNewFIle *.xml    set ts=2 expandtab shiftwidth=2
+au BufRead,BufNewFIle *.c      set ts=4 expandtab shiftwidth=4
+au BufRead,BufNewFIle *.hs     set ts=2 expandtab shiftwidth=2
+"au BufRead,BufNewFIle *.h      set ts=4 expandtab shiftwidth=4
