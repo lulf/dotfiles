@@ -22,6 +22,9 @@ set termencoding=utf-8
 set fileencodings=utf-8
 set filetype=on
 set expandtab
+set number
+set spell
+set cursorline
 
 au BufNewFile,BufRead mutt*    set tw=72 ai nocindent fileencoding=utf-8
 au BufRead,BufNewFIle *.vhdl    set ts=2 expandtab
